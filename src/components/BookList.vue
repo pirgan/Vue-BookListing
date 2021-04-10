@@ -9,7 +9,7 @@
       >{{book.title}}:{{book.author}}</book-item>
     </ul>
     <br><hr>
-    <book-form @addBook='appendBook'></book-form>
+    <book-form v-on:addBook='appendBook'></book-form>
   </div>
 </template>
 
